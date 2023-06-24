@@ -7,6 +7,9 @@ directory = "input"
 # Get the list of files in the directory
 file_list = os.listdir(directory)
 
+# Sort the file_list array in ascending order
+file_list = sorted(file_list)
+
 # Create an empty list to store the DataFrames
 dfs = []
 
